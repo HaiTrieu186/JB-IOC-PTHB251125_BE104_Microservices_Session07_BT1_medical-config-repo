@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+message: Chao mung den patient service (Moi truong DEV)
+
+spring:
+  application:
+    name: patient-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/patient_db_dev
+    username: root
+    password: 123456

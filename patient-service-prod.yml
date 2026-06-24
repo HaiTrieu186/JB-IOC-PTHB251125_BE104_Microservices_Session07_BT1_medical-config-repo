@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+message: Chao mung den patient service tu Config server
+
+spring:
+  application:
+    name: patient-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 123
+    url: jdbc:postgresql://localhost:5432/doctor_db
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false

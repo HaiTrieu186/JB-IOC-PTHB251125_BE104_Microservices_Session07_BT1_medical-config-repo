@@ -3,6 +3,9 @@ server:
 
 message: Chao mung den patient service tu Config server
 
+app:
+  welcome: Chao mung den patient service tu Config server
+
 spring:
   application:
     name: doctor-service
